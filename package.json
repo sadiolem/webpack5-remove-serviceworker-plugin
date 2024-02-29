@@ -1,14 +1,25 @@
 {
   "name": "webpack5-remove-serviceworker-plugin",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "webpack5", "plugin", "serviceworker", "unregister"
+    "webpack5",
+    "plugin",
+    "serviceworker",
+    "unregister"
   ],
   "author": "sadiolem",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadiolem/webpack5-remove-serviceworker-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sadiolem/webpack5-remove-serviceworker-plugin/issues"
+  },
+  "homepage": "https://github.com/sadiolem/webpack5-remove-serviceworker-plugin#readme",
+  "description": ""
 }
