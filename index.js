@@ -26,3 +26,5 @@ RemoveServiceWorkerPlugin.prototype.apply = function (compiler) {
     });
   });
 };
+
+module.exports = RemoveServiceWorkerPlugin;
