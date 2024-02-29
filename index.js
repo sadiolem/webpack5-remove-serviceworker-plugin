@@ -11,7 +11,8 @@ RemoveServiceWorkerPlugin.prototype.apply = function (compiler) {
   compiler.hooks.emit.tapAsync("RemoveServiceWorkerPlugin", (compilation, callback) => {
     fs.readFile(path.join(__dirname, filename), (err, content) => {
       if (err) {
-        callback(err);
+        console.warn(`Warning: Failed to read the service worker file (${filename}). It may already have been deleted or does not exist.`);
+        callback();
         return;
       }
 
